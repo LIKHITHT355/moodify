@@ -150,3 +150,16 @@ secrets.json
 # ==========================================
 .git/
 .gitmodules
+# Backend
+backend/.env
+backend/.env.local
+backend/node_modules/
+
+# Frontend  
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# General
+.DS_Store
+*.log
